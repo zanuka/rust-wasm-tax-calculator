@@ -1,0 +1,13 @@
+[package]
+name = "tax-calculator"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust/WASM tax calculator for US federal income tax"
+repository = "https://github.com/zanuka/rust-wasm-tax-calculator.git"
+license = "MIT"
+
+[dependencies]
+wasm-bindgen = "0.2"
+
+[lib]
+crate-type = ["cdylib"]
