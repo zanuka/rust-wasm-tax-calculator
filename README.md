@@ -127,3 +127,9 @@ This approach ensures that the tax is calculated progressively, with higher rate
     - [ ] Export functionality for tax records
     - [ ] Real-time tax calculation as users input values
 
+
+## notes
+Easily calculate your monthly income tax based on the latest tax brackets for salaried individuals in the USA.
+
+The USA Tax Calculator is a browser extension designed to assist American individuals in calculating their income tax liability. It offers a user-friendly interface that allows users to input their monthly salary and select the tax year to estimate their tax obligations accurately. The extension supports tax calculations for different tax years and provides options for deductions and tax calculations specific to various professions.
+
