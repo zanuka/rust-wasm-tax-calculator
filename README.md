@@ -3,12 +3,21 @@ A prototype for calculating tax using rust and wasm
 
 ## Development Setup
 ### Prerequisites
-- [Bun](https://bun.sh/) for package management
-- [Rust](https://www.rust-lang.org/tools/install)
-- [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)
+- [Bun](https://bun.sh/) - JavaScript runtime and package manager
+- [Rust](https://www.rust-lang.org/tools/install) - Systems programming language
+- [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) - Rust's package manager (included with Rust)
+- [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/) - WebAssembly build tool
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+
+### Installation
+1. Install project dependencies:
+
+```bash
+bun install
+```
 
 ### Development Server
-This project uses `live-server` for development with the following features:
+This project uses [`live-server`](https://github.com/tapio/live-server) for development with the following features:
 - 🔄 Automatic page reloading when files change
 - 📦 Proper WASM MIME type handling
 - 🌐 Cross-browser compatibility
@@ -102,8 +111,9 @@ The function calculates tax by applying the appropriate rate to the income withi
 This approach ensures that the tax is calculated progressively, with higher rates applied only to the income that falls within higher brackets.
 
 ## Roadmap
-- [ ] Create a browser extension for the tax calculator feature
-  - [ ] Build core WASM module for tax calculations
+- [ ] Create a browser extension for a US tax calculator
+  - [x] Inital project setup, dependencies, wasm-pack proto
+  - [x] Build core WASM module for tax calculations
   - [ ] Implement browser extension architecture:
     - [ ] Background script for handling calculations
     - [ ] Content script for page integration
