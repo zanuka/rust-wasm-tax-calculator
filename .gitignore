@@ -1,14 +1,15 @@
 # Ignore build artifacts
 /target/
 /pkg/
+/dist/
 
 # Ignore dependency directories
 /node_modules/
 
 # Ignore generated files
 *.wasm
-*.js
 *.d.ts
+!wasm-mime.js
 
 # Ignore lock files
 Cargo.lock
@@ -19,3 +20,4 @@ yarn.lock
 /.idea/
 /.vscode/
 /*.swp
+/.cursor/

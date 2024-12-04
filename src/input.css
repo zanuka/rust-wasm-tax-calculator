@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom component classes */
+@layer components {
+  .container {
+    @apply max-w-4xl mx-auto px-4 py-8;
+  }
+
+  .input-field {
+    @apply w-full p-2 mb-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+
+  .btn {
+    @apply px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors;
+  }
+
+  .card {
+    @apply bg-white p-6 rounded-lg shadow-md;
+  }
+}
